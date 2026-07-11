@@ -11,12 +11,7 @@
 ## 🏆 المشروع المتكامل (Capstone Project)
 ### 3-Bit Flash Analog-to-Digital Converter (ADC)
 مشروع يربط بين التصميم التناظري (Analog IC)، معالجة الإشارات الرقمية، وتصميم الـ PCB، مع بناء أدوات أتمتة (ADT) خاصة لكل مرحلة. هذا المشروع هو تطبيق عملي على رحلة التصميم الكاملة (Full Stack Flow).
-##📈 خارطة الطريق (15 يوليو - 15 سبتمبر)
-[ ] الأسبوع 1-2: Analog IC Fundamentals (Razavi) & ADT Setup.
-[ ] الأسبوع 3-4: Mixed-Signal Blocks (3-bit Flash ADC Capstone).
-[ ] الأسبوع 5-6: Digital System Design (Verilog HDL).
-[ ] الأسبوع 7-8: Embedded Integration & Final PCB Prototyping.
-تم الإنشاء بواسطة: المهندس محمد جمال سيد محمد سليمان
+
 ## 📂 هيكل المستودع (Repository Structure)
 ```text
 /analog-digital-mastery
