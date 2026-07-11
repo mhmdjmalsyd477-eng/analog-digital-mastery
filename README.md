@@ -19,7 +19,7 @@ LinkedIn: https://www.linkedin.com/in/mohammed-gamal-2400768m
 
 Email: mhmdjmalsyd477@gmail.com
 
-تم الإنشاء بواسطة: المهندس محمد جمال سيد محمد 
+تم الإنشاء بواسطة: محمد جمال سيد محمد سليمان 
 
 ## 📂 هيكل المستودع (Repository Structure)
 ```text
