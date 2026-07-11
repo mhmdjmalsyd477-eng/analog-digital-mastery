@@ -12,11 +12,14 @@
 ### 3-Bit Flash Analog-to-Digital Converter (ADC)
 مشروع يربط بين التصميم التناظري (Analog IC)، معالجة الإشارات الرقمية، وتصميم الـ PCB، مع بناء أدوات أتمتة (ADT) خاصة لكل مرحلة. هذا المشروع هو تطبيق عملي على رحلة التصميم الكاملة (Full Stack Flow).
 
+
 ##📬 تواصل معي (Get in Touch)
 يسعدني التواصل لمناقشة المشاريع الهندسية، تبادل الخبرات، أو فرص التعاون:
+
 LinkedIn: https://www.linkedin.com/in/mohammed-gamal-2400768m
 Email: mhmdjmalsyd477@gmail.com
 تم الإنشاء بواسطة: المهندس محمد جمال سيد محمد 
+
 
 ## 📂 هيكل المستودع (Repository Structure)
 ```text
