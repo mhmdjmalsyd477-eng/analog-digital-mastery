@@ -24,20 +24,22 @@ Email: mhmdjmalsyd477@gmail.com
 ## 📂 هيكل المستودع (Repository Structure)
 ```text
 /analog-digital-mastery
-├── analog-ic/                      # تصميمات الـ IC والمعامل
+├── analog-ic/                      
 │   └── labs/
 │       ├── xschem-ngspice/
 │       ├── adt/
 │       ├── cadence-virtuoso/
 │       └── mentor/
-├── digital-design/                 # تصميم الـ Verilog والـ Verification
+├── digital-design/                 
 │   └── labs/
-├── mixed-signal-design/            # المشروع المتكامل (Capstone)
+├── mixed-signal-design/            
 │   └── 3-bit-flash-adc/
-├── embedded-systems/               # تطوير الـ Firmware والتحكم
+├── embedded-systems/               
 │   ├── labs/
 │   └── projects/
-├── pcb-design/                     # مشاريع الـ PCB
+├── pcb-design/                     
 │   ├── kicad/
 │   └── easyeda/
-└── adt-scripts/                    # أدوات الأتمتة (Python Scripts)
+└── adt-scripts/
+```
+
