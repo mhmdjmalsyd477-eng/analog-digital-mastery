@@ -1,28 +1,39 @@
-# 🚀 Engineering Portfolio: Analog IC, Digital & System Design
+# 🚀 Engineering Portfolio: Full Stack Analog, Mixed-Signal & Digital Design
 
-مرحباً بك في سجل تطوري المهني. هذا المستودع يوثق رحلتي في تعلم وتطبيق تصميم الدوائر المتكاملة (Analog IC Design)، التصميم الرقمي (Verilog)، وتصميم الـ PCB. الهدف ليس مجرد التعلم، بل بناء **أدوات أتمتة (ADT)** خاصة بي لزيادة كفاءة التصميم.
+سجل هندسي يوثق رحلتي في تصميم الأنظمة الإلكترونية، من مستوى الترانزستور وصولاً إلى الـ Embedded Systems. هذا المستودع يمثل رؤيتي كـ **Full Stack Hardware Engineer**، حيث أقوم ببناء الدوائر، محاكاتها، أتمتتها، ثم تنفيذها كمنتج متكامل على PCB.
 
-## 📈 خارطة الطريق (15 يوليو - 15 سبتمبر)
-خطة عمل مكثفة لـ 8 أسابيع:
+## 📚 المراجع الأكاديمية (Academic References)
+لضمان الدقة العلمية في كل خطوة، أعتمد على المراجع التالية كأساس نظري:
+- **Analog & Microelectronics:** *Fundamentals of Microelectronics* (3rd Edition) - **Behzad Razavi**.
+- **Advanced Analog IC Design:** *Design of Analog CMOS Integrated Circuits* (2nd Edition) - **Behzad Razavi**.
+- **Semiconductor Physics:** *Solid State Electronic Devices* (7th Edition) - **Ben G. Streetman & Sanjay Kumar Banerjee**.
 
-- [ ] **الأسبوع 1-2:** Analog IC Fundamentals (Razavi) & ADT Setup.
-- [ ] **الأسبوع 3-4:** Single-Stage Amplifiers & Automation.
-- [ ] **الأسبوع 5-6:** Digital System Design (Verilog).
-- [ ] **الأسبوع 7-8:** Advanced Analog & PCB Integration.
-
-## 🛠 الترسانة التقنية (Tech Stack)
-* **Analog IC:** Xschem, Ngspice, Cadence.
-* **Digital:** Verilog HDL, Mentor Graphics.
-* **PCB:** KiCad.
-* **Automation:** Python (PySpice, Pandas, Matplotlib) - *قلب الـ ADT الخاص بي.*
-
-## 📂 هيكل المستودع
+## 🏆 المشروع المتكامل (Capstone Project)
+### 3-Bit Flash Analog-to-Digital Converter (ADC)
+مشروع يربط بين التصميم التناظري (Analog IC)، معالجة الإشارات الرقمية، وتصميم الـ PCB، مع بناء أدوات أتمتة (ADT) خاصة لكل مرحلة. هذا المشروع هو تطبيق عملي على رحلة التصميم الكاملة (Full Stack Flow).
+##📈 خارطة الطريق (15 يوليو - 15 سبتمبر)
+[ ] الأسبوع 1-2: Analog IC Fundamentals (Razavi) & ADT Setup.
+[ ] الأسبوع 3-4: Mixed-Signal Blocks (3-bit Flash ADC Capstone).
+[ ] الأسبوع 5-6: Digital System Design (Verilog HDL).
+[ ] الأسبوع 7-8: Embedded Integration & Final PCB Prototyping.
+تم الإنشاء بواسطة: المهندس محمد جمال سيد محمد سليمان
+## 📂 هيكل المستودع (Repository Structure)
 ```text
 /analog-digital-mastery
-├── analog_ic/          # تصميمات الـ IC والـ Labs
-├── digital_design/     # كود الـ Verilog والـ Verification
-├── pcb_design/         # ملفات الـ KiCad
-├── labs/               # تقارير المعامل (Markdown Reports)
-├── adt_scripts/        # أدوات الأتمتة (Python Scripts)
-└── README.md           # هذا الملف
-
+├── analog_ic/                      # تصميمات الـ IC والمعامل
+│   └── labs/
+│       ├── xschem/
+│       ├── adt/
+│       ├── cadence/
+│       └── mentor/
+├── digital_design/                 # تصميم الـ Verilog والـ Verification
+│   └── labs/
+├── mixed_signal_design/            # المشروع المتكامل (Capstone)
+│   └── 3-bit-flash-adc/
+├── embedded_systems/               # تطوير الـ Firmware والتحكم
+│   ├── labs/
+│   └── projects/
+├── pcb_design/                     # مشاريع الـ PCB
+│   ├── kicad/
+│   └── easyeda/
+└── adt_scripts/                    # أدوات الأتمتة (Python Scripts)
