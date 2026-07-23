@@ -2,8 +2,9 @@ import json
 import os
 
 def load_uuid_map(root_path="."):
-    """قراءة ملف الفهرس المركزي uuidMap.json من الجذر"""
-    map_file = os.path.join(root_path, "uuidMap.json")
+    """قراءة ملف الفهرس المركزي من مسار الـ EasyEDA"""
+    # تحديد المسار الحالي حيث يوجد uuidMap.json
+    map_file = os.path.join(root_path, "pcb-design", "easyeda", "uuidMap.json")
     
     if not os.path.exists(map_file):
         print(f"[!] تحذير: ملف uuidMap.json غير موجود في المسار: {map_file}")
@@ -11,11 +12,11 @@ def load_uuid_map(root_path="."):
     
     with open(map_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
-        print("[+] تم قراءة الفهرس المركزي بنجاح.")
+        print("[+] تم قراءة الفهرس المركزي من مجلد EasyEDA بنجاح.")
         return data
 
 def read_component_metadata(json_file_path):
-    """قراءة ملف الميتافيتا الخاص بكل مكون (مثل lab_1.json أو metadata.json)"""
+    """قراءة ملف الميتافيتا الخاص بكل مكون"""
     if not os.path.exists(json_file_path):
         print(f"[!] ملف الميتافيتا غير موجود: {json_file_path}")
         return None
@@ -25,7 +26,6 @@ def read_component_metadata(json_file_path):
         return metadata
 
 def main():
-    # 1. تحميل الخريطة المركزية للمكونات
     uuid_map = load_uuid_map()
     
     if not uuid_map:
@@ -33,12 +33,10 @@ def main():
 
     print("\n--- تفاصيل المكونات المسجلة في النظام ---")
     
-    # 2. المرور على كل مكون ومساره حسب الـ UUID الخاص به
     for uuid_key, component_info in uuid_map.items():
         print(f"\nUUID: {uuid_key}")
         print(f"Component Info: {component_info}")
         
-        # لو متاح مسار لملف ميتافيتا خاص بالمكون، نقوم بقراءته
         if isinstance(component_info, dict) and "path" in component_info:
             meta_path = component_info["path"]
             meta_data = read_component_metadata(meta_path)
