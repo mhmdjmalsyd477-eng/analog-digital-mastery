@@ -1,0 +1,21 @@
+﻿Project Title: 		New Project_2026-07-27_04-30-24
+Borard Title: 		Board1
+PCB Title: 		PCB1
+Time: 		2026-07-27 10:45:51
+
+Borard Size: 		5000mil x 2500mil
+Layers: 		Total 22, Copper 2
+
+Devices: 		6
+Footprints: 		6
+Components: 		Total 50,Top Layer 50,Bottom Layer 0
+Pads: 		Total 112, Top Side Table Stick 88,Bottom Side Table Stick 0,Metallized Hole 24, Nonmetallic Hole 0
+Nets: 		Total 42, Unrouted 0
+Test Point: 		Nets Total 42, Has Testpoint Nets 0, Testpoint Coverage 0%
+ 		Total 0, Top Side Testpoints 0, Bottom Side Testpoints 0
+
+Slot Region: 		0
+Vias: 		Total 16, Through Vias 16, Blind Or Buried Vais 0
+CopperAreas: 		0
+Length of Tracks: 		55849.1mil
+
