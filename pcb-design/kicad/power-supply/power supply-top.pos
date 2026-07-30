@@ -1,0 +1,17 @@
+### Footprint positions - created on 2026-07-30T07:54:00+0300 ###
+### Printed by KiCad version 8.0.9-8.0.9-0~ubuntu24.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val             Package                                                PosX       PosY       Rot  Side
+C1        470u            CP_Radial_D8.0mm_P3.50mm                           172.5000  -124.5000   90.0000  top
+D1        BZV55C10        D_MiniMELF                                         184.5000  -122.7500  -90.0000  top
+D2        1N4007          D_DO-41_SOD81_P10.16mm_Horizontal                  155.0000  -110.5800   90.0000  top
+D3        1N4007          D_DO-41_SOD81_P10.16mm_Horizontal                  164.5000  -127.5800   90.0000  top
+D4        1N4007          D_DO-41_SOD81_P10.16mm_Horizontal                  154.9200  -117.5000  -90.0000  top
+D5        1N4007          D_DO-41_SOD81_P10.16mm_Horizontal                  164.5000  -100.4200  -90.0000  top
+D6        LED             LED_D3.0mm_Horizontal_O3.81mm_Z10.0mm              184.0000  -108.0000    0.0000  top
+J1        Conn_01x02_Pin  PinHeader_1x02_P2.54mm_Vertical                    142.5000  -113.0000    0.0000  top
+J2        Conn_01x02_Pin  PinHeader_1x02_P2.54mm_Vertical                    193.0000  -116.0000  180.0000  top
+R1        330             R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal   172.5000  -114.8100   90.0000  top
+R2        3.9K            R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal   177.8100  -102.5000  180.0000  top
+## End
